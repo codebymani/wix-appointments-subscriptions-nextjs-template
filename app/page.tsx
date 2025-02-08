@@ -16,21 +16,21 @@ export default async function Home() {
         className="text-center w-full min-h-screen relative"
         data-testid={testIds.HOME_PAGE.HEADER}
       >
-        <video autoPlay muted loop className="video-background">
+        {/* <video autoPlay muted loop className="video-background">
           <source
             src="https://video.wixstatic.com/video/11062b_9de2dbff3dda403b944bb98c41cb5764/1080p/mp4/file.mp4"
             type="video/mp4"
           />
-        </video>
+        </video> */}
         <div className="text-center px-3">
-          <div className="font-sans font-bold uppercase tracking-widest pt-16">
-            Ambition is the first step towards
+          <div className="font-sans font-bold uppercase tracking-widest pt-32">
+            Going to the dentist just got better.
           </div>
-          <div className="font-lulo text-4xl sm:text-6xl md:text-8xl pt-4">
-            Success
+          <div className="font-lulo text-2xl sm:text-2xl md:text-2xl pt-4">
+            Expert Dental Care in Seattle
           </div>
           <div className="text-xl pt-6 tracking-wider">
-            Now Available for Online Coaching
+            Appointments are open
           </div>
           <div className="pt-7">
             <a
@@ -54,12 +54,12 @@ export default async function Home() {
                 About me
               </h2>
               <p className="text-sm flex-1 leading-7">
-                My name is Allan Johnson and I am a personal coach. My goal is
-                to assist people identify and overcome obstacles in their lives
-                and to maximize their potential. Through my coaching, I help
-                people set goals, build the confidence and skills they need to
-                achieve success and develop a positive mindset and a sense of
-                self-worth.
+                My name is Sreelakshmi Keesara and I am a personal coach. My
+                goal is to assist people identify and overcome obstacles in
+                their lives and to maximize their potential. Through my
+                coaching, I help people set goals, build the confidence and
+                skills they need to achieve success and develop a positive
+                mindset and a sense of self-worth.
               </p>
               <p>&nbsp;</p>
               <p className="text-sm flex-1 leading-7">
