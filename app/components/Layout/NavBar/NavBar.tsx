@@ -8,8 +8,8 @@ import Login from '@app/components/Login/Login';
 const navbarItems = [
   { ref: '/#about', label: 'About' },
   { ref: '/book-now', label: 'Services' },
-  { ref: '/plans', label: 'Plans' },
-  { ref: '/guides', label: 'Guides' },
+  // { ref: '/plans', label: 'Plans' },
+  // { ref: '/guides', label: 'Guides' },
   { ref: '/#contact', label: 'Contact' },
   { ref: '/account/my-account', label: 'Account', prefetch: false },
 ];
